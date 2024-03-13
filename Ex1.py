@@ -9,7 +9,7 @@ if max < c:
     max = c
 
 if a <= 0 or b <= 0 or c <= 0:
-    print("3 gia tri khong phai do dai tam giac")
+    print("3 giá trị không phải độ dài tam giác")
 else:
     if a + b + c - max > max:
         P = a + b + c
@@ -17,4 +17,4 @@ else:
         print("Chu vi tam giac la: ", P)
         print("Dien tich tam giac la: ", S)
     else:
-        print("3 gia tri khong phai do dai tam giac")
+        print("3 giá trị không phải độ dài tam giác")
