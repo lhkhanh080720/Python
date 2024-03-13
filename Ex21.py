@@ -21,7 +21,7 @@ if a1 == 9:
     at1 = "chín"  
 
 if a2 == 1:
-    at2 = "một"
+    at2 = "mốt"
 if a2 == 2:
     at2 = "hai"
 if a2 == 3:
