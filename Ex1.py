@@ -2,6 +2,9 @@ a = float(input("Nhập giá trị cho a: "))
 b = float(input("Nhập giá trị cho b: "))
 c = float(input("Nhập giá trị cho c: "))
 
+if a <= 0 and b <= 0 and c <= 0:
+    print("3 gia tri khong phai do dai tam giac")
+    
 max = float(a)
 if max < b:
     max = b
