@@ -1,5 +1,5 @@
 a = float(input("Nhập giá trị cho khối nước tiêu thụ: "))
-b = float(input("Nhập giá trị cho số nhân khẩu: "))
+b = int(input("Nhập giá trị cho số nhân khẩu: "))
 
 if float(a/b) <= 4:
     tien = 6700 * a
