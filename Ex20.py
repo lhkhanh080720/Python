@@ -1,7 +1,7 @@
 b = int(input("Nhập giá trị cho Tháng = "))
 c = int(input("Nhập giá trị cho Năm = "))
 
-if c % 4 == 0:
+if c % 400 == 0 or (c % 4 == 0 and c % 100 != 0):
     if b == 2:
         print("Tháng 2 Năm", c, "có 29 ngày.")
 else:
